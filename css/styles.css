@@ -1,22 +1,24 @@
+/*Logo*/
+.logo {
+  display: flex;
+  justify-content: center;
+/*margin: 0 auto;*/
+/*width: 100%;*/
+
+}
+/*Logo*/
+
+/*Start of nav*/
 ul {
   list-style: none;
   padding: 0;
   color: #996600;
 }
 
-img {
-  padding-left: 35%;
-}
-
-nav li:hover {
-  color: #FFF;
-  background-color: #996600;
-}
-
 nav:before, nav:after {
   content: "";
   border: 1px solid #996600;
-  width: 30%;
+  width: 35%;
   height: 0;
   margin: 10px;
   position: relative;
@@ -35,35 +37,31 @@ nav {
   position: relative;
 }
 
-.row2 {
-  background-color: #996600;
-  height: 70px;
-  bottom: 0%;
+nav li:hover{
   color: white;
-  width: 100%;
+  background-color: #996600;
 }
+/*End of nav*/
 
-.row2 img {
-  float: right;
-  padding-bottom: 30px;
-  display: inline-block;
-  padding-right: 30px;
-  padding-top: 10px;
-}
-
-.row2 p {
-  padding-left: 40px;
-  padding-top: 0px;
-  display: inline-block;
-  padding-top: 10px;
-}
-
-.about-us {
-  background-image: url(../img/banner2.png);
-  padding: 0;
-  height: 500px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
+/*Start of banner*/
+.banner{
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 30px;
 }
+/*End of banner*/
+
+/*Start of footer*/
+.row{
+  background-color: #996600;
+  color: white;
+  width: 101%;
+}
+.row p{
+  padding-top: 5%;
+}
+.row3{
+  padding: 20px;
+}
+/*End of footer*/
